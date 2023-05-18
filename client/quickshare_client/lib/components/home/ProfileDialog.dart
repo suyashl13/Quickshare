@@ -11,14 +11,14 @@ class ProfileDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return SimpleDialog(
       children: [
-        ListTile(
-          leading: Icon(Icons.person),
-          title: Text('Edit Profile'),
-          onTap: () {
-            Navigator.push(context,
-                MaterialPageRoute(builder: (_) => EditProfileScreen()));
-          },
-        ),
+        // ListTile(
+        //   leading: Icon(Icons.person),
+        //   title: Text('Edit Profile'),
+        //   onTap: () {
+        //     Navigator.push(context,
+        //         MaterialPageRoute(builder: (_) => EditProfileScreen()));
+        //   },
+        // ),
         ListTile(
             leading: Icon(Icons.logout),
             title: Text('Logout'),
