@@ -62,7 +62,7 @@ class _AddBenfByQrCodeScreenState extends State<AddBenfByQrCodeScreen> {
       setState(() {
         result = scanData;
       });
-      _addBeneficiaryOnFound(scanData.code);
+      _addBeneficiaryOnFound(scanData.code!);
     });
   }
 

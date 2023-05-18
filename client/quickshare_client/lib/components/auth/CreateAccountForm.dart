@@ -19,7 +19,7 @@ class _CreateAccountFormState extends State<CreateAccountForm> {
     'name': '',
     'email': '',
     'username': '',
-    'birth_year': '',
+    'birth_year': 0,
     'password': '',
     'profile_picture': '',
   };
